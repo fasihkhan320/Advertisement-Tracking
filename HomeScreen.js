@@ -126,7 +126,7 @@ var l=[]
     }
   
     getPlaces=()=>{
-      const url=this.getUrlWithParameters(this.state.lat,this.state.long,5000,'clothes','ChaseUp',API)
+      const url=this.getUrlWithParameters(this.state.lat,this.state.long,5000,'clothes','ChaseUp',Map-Api xxxxx)
       fetch(url)
         .then((data)=>data.json())
         .then((res)=>{
