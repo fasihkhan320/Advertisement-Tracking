@@ -153,7 +153,7 @@ var l=[]
           this.setState({places:arrayMarkers})
           if(org2 !== ''){
             
-            fetch("https://y-10-se.firebaseio.com/ActiveAds/"+org1+"/URL.json")
+            fetch("https://example.firebaseio.com/*********")
             .catch(err=>{
               alert('Something Went Wrong')
             })
